@@ -1,3 +1,9 @@
+/game
+/lilypond.midi
+/lilypond.pdf
+/lilypond.wav
+/unifont-15.1.05.otf
+
 # Prerequisites
 *.d
 

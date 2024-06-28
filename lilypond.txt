@@ -1,0 +1,10 @@
+\version "2.25.16"
+\score {
+  {
+    \clef treble
+    c'''
+  }
+  \layout { }
+  \midi { }
+}
+
