@@ -17,7 +17,7 @@
 #define DEFAULT_PTSIZE 19
 #define DEFAULT_TEXT_1 "Pack my box with five dozen liquor jugs."
 #define DEFAULT_TEXT "hello world"
-#define DELAY 3
+#define DELAY 2
 #define WINDOW_TITLE "Game"
 #define WINDOW_WIDTH 640
 #define WINDOW_HEIGHT 480
