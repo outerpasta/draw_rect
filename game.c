@@ -17,7 +17,7 @@
 #define DEFAULT_PTSIZE 19
 #define DEFAULT_TEXT_1 "Pack my box with five dozen liquor jugs."
 #define DEFAULT_TEXT "hello world"
-
+#define DELAY 3
 #define WINDOW_TITLE "Game"
 #define WINDOW_WIDTH 640
 #define WINDOW_HEIGHT 480
@@ -191,7 +191,7 @@ int main(int argc, char *argv[]) {
                   (int)player_y_float + PLAYER_HEIGHT, 255, 0, 255, 255);
 
     // Update the renderer every frame
-    SDL_Delay(3);
+    SDL_Delay(DELAY);
 
     SDL_RenderCopy(renderer, text_texture, NULL, &rect);
 
