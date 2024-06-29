@@ -63,12 +63,6 @@ int main(int argc, char *argv[]) {
     return (2);
   } else {
     Mix_QuerySpec(&audio_rate, &audio_format, &audio_channels);
-    SDL_Log("Opened audio at %d Hz %d bit%s %s", audio_rate,
-            (audio_format & 0xFF),
-            (SDL_AUDIO_ISFLOAT(audio_format) ? " (float)" : ""),
-            (audio_channels > 2)   ? "surround"
-            : (audio_channels > 1) ? "stereo"
-                                   : "mono");
   }
   audio_open = 1;
 
