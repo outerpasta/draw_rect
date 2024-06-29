@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<svg
+   width="512"
+   height="512"
+   viewBox="0 0 512 512"
+   version="1.1"
+   id="svg1"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <linearGradient
+       id="linearGradient6">
+      <stop
+         style="stop-color:#ffcc00;stop-opacity:1;"
+         offset="0"
+         id="stop6" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1"
+         offset="1"
+         id="stop7" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4">
+      <stop
+         style="stop-color:#806600;stop-opacity:1;"
+         offset="0"
+         id="stop4" />
+      <stop
+         style="stop-color:#806600;stop-opacity:0;"
+         offset="1"
+         id="stop5" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient2">
+      <stop
+         style="stop-color:#806600;stop-opacity:1;"
+         offset="0"
+         id="stop2" />
+      <stop
+         style="stop-color:#806600;stop-opacity:0;"
+         offset="1"
+         id="stop3" />
+    </linearGradient>
+    <linearGradient
+       xlink:href="#linearGradient2"
+       id="linearGradient3"
+       x1="254.65155"
+       y1="322.17282"
+       x2="363.43341"
+       y2="322.17282"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-618.08496)" />
+    <linearGradient
+       xlink:href="#linearGradient4"
+       id="linearGradient5"
+       x1="121.8357"
+       y1="187.83003"
+       x2="230.61757"
+       y2="187.83003"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-352.45328)" />
+    <linearGradient
+       xlink:href="#linearGradient6"
+       id="linearGradient7"
+       x1="338.60175"
+       y1="184.98543"
+       x2="31.420767"
+       y2="434.4585"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     id="layer2">
+    <rect
+       style="fill:#000000;stroke:#ffffff;stroke-width:0"
+       id="rect2"
+       width="512"
+       height="512"
+       x="0"
+       y="0" />
+    <path
+       style="fill:#ffffff;stroke:#ffffff;stroke-width:0"
+       id="path14"
+       d="m 82.048428,108.71417 -8.225221,0.2619 -4.447256,6.92422 -2.790815,-7.74172 -7.959598,-2.08989 6.500402,-5.04655 -0.472046,-8.215839 6.808285,4.622781 7.667858,-2.987776 -2.292652,7.903584 z" />
+    <path
+       style="fill:#ffffff;stroke:#ffffff;stroke-width:0"
+       id="path15"
+       d="m 167.17366,313.83522 -5.8613,14.28519 8.44494,12.92689 -15.39726,-1.16006 -9.68458,12.02625 -3.65473,-15.00215 -14.43034,-5.49427 13.13852,-8.11177 0.76613,-15.42189 11.77479,9.98879 z"
+       transform="translate(-21.756374,15.954674)" />
+    <path
+       style="fill:#ffffff;stroke:#ffffff;stroke-width:0"
+       id="path16"
+       d="m 393.06515,395.96601 -20.67329,-0.53804 -12.16323,16.72514 -5.87669,-19.82774 -19.66519,-6.39956 17.04129,-11.71617 0.009,-20.68029 16.40879,12.58674 19.67105,-6.38156 -6.9001,19.49521 z"
+       transform="translate(2.9008499)" />
+  </g>
+  <g
+     id="layer3">
+    <path
+       style="fill:#ffffff;stroke:#ffffff;stroke-width:0"
+       id="path13"
+       d="M 59.485106,64.613135 43.018857,68.182728 36.624434,83.770887 28.141199,69.213618 11.339994,67.949167 22.563315,55.382687 18.574022,39.013054 33.993651,45.803811 48.329338,36.951273 46.635871,53.714671 Z"
+       transform="translate(318.96325)" />
+  </g>
+  <g
+     id="layer1"
+     transform="matrix(0,-1,-1,0,491.46976,491.46975)">
+    <path
+       style="fill:url(#linearGradient7);stroke:#ffffff;stroke-width:0"
+       d="m 116.75921,148.66856 c 26.15093,-57.827654 140.96712,-117.090153 233.51841,-30.45893 92.55129,86.63123 53.86345,232.55681 2.90085,264.70255 -50.9626,32.14575 -126.70905,-8.24495 -114.58357,-79.04815 12.12548,-70.80321 51.3033,-32.47777 30.45892,-68.89519 -20.84437,-36.41743 -20.34037,15.03391 -81.949,26.10764 -61.60863,11.07374 -96.496549,-54.58027 -70.34561,-112.40792 z"
+       id="path2" />
+    <circle
+       style="fill:url(#linearGradient5);stroke:#ffffff;stroke-width:0"
+       id="path1"
+       cx="-176.22664"
+       cy="187.83003"
+       r="54.390934"
+       transform="scale(-1,1)" />
+    <circle
+       style="fill:url(#linearGradient3);stroke:#ffffff;stroke-width:0"
+       id="path1-2"
+       cx="-309.04248"
+       cy="322.17282"
+       r="54.390934"
+       transform="scale(-1,1)" />
+  </g>
+</svg>

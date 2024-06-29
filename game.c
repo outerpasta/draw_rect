@@ -8,6 +8,7 @@
 #include <SDL2/SDL_stdinc.h>
 #include <SDL2/SDL_timer.h>
 #include <SDL2/SDL_ttf.h>
+#include <SDL2/SDL_image.h>
 
 #include <stdbool.h>
 
@@ -18,6 +19,7 @@
 #define DEFAULT_TEXT_1 "Pack my box with five dozen liquor jugs."
 #define DEFAULT_TEXT "hello world"
 #define DELAY 2
+#define TITLE_DELAY 1000
 #define WINDOW_TITLE "Game"
 #define WINDOW_WIDTH 640
 #define WINDOW_HEIGHT 480
@@ -115,6 +117,33 @@ int main(int argc, char *argv[]) {
 
   text = TTF_RenderUTF8_Solid(font, DEFAULT_TEXT, white);
   text_texture = SDL_CreateTextureFromSurface(renderer, text);
+
+  /* Initialize the IMG library */
+  int flags = IMG_INIT_JPG|IMG_INIT_PNG;
+  int initted = IMG_Init(flags);
+  if(initted != flags) {
+    printf("IMG_Init: Failed to init required jpg and png support!\n");
+    printf("IMG_Init: %s\n", IMG_GetError());
+    return 1;
+  }
+
+  // load image
+  SDL_Surface *image = IMG_Load("outerpasta.svg");
+  if (!image) {
+    SDL_LogError(SDL_LOG_CATEGORY_ERROR, "IMG_Load: %s\n", IMG_GetError());
+    return 1;
+  }
+  SDL_Texture *outerpasta_image = SDL_CreateTextureFromSurface(renderer, image);
+  if (!outerpasta_image) {
+    SDL_LogError(SDL_LOG_CATEGORY_ERROR, "Couldn't create texture: %s\n", SDL_GetError());
+  }
+
+  SDL_Rect dstrect;
+  dstrect.x = 70;
+  SDL_QueryTexture(outerpasta_image, NULL, NULL, &dstrect.w, &dstrect.h);
+  SDL_RenderCopy(renderer, outerpasta_image, NULL, &dstrect);
+  SDL_RenderPresent(renderer);
+  SDL_Delay(TITLE_DELAY);
 
   // Wait for a quit event
   bool quit = false;
